@@ -9,4 +9,7 @@ public class UrlConstants {
 	public static String PER_PAGE = "per_page";
 	public static String PAGE ="page";
 	public static String PHOTOS ="photos/";
+
+	public static String SLASH ="/";
+
 }

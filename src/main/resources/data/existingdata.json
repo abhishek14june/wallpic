@@ -1,0 +1,2264 @@
+[
+  {
+    "id": 64,
+    "name": "Television",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 21,
+        "name": "Firefly"
+      },
+      {
+        "id": 487,
+        "name": "TV"
+      },
+      {
+        "id": 488,
+        "name": "Arrow"
+      },
+      {
+        "id": 1013,
+        "name": "Futurama"
+      },
+      {
+        "id": 1165,
+        "name": "Adventure Time"
+      },
+      {
+        "id": 1274,
+        "name": "Game of Thrones"
+      },
+      {
+        "id": 1325,
+        "name": "My Little Pony"
+      },
+      {
+        "id": 1479,
+        "name": "The Big Bang Theory"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Anime & Manga",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 1,
+        "name": "anime"
+      },
+      {
+        "id": 330,
+        "name": "manga"
+      },
+      {
+        "id": 591,
+        "name": "Vagabond"
+      },
+      {
+        "id": 838,
+        "name": "anime vectors"
+      },
+      {
+        "id": 1476,
+        "name": "Blade & Soul"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Musicians",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 1385,
+        "name": "Gorillaz"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Art & Design",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 15,
+        "name": "futuristic"
+      },
+      {
+        "id": 30,
+        "name": "triangle"
+      },
+      {
+        "id": 198,
+        "name": "simple background"
+      },
+      {
+        "id": 254,
+        "name": "blurred"
+      },
+      {
+        "id": 323,
+        "name": "artwork"
+      },
+      {
+        "id": 350,
+        "name": "modern"
+      },
+      {
+        "id": 369,
+        "name": "dark"
+      },
+      {
+        "id": 595,
+        "name": "typography"
+      },
+      {
+        "id": 632,
+        "name": "cube"
+      },
+      {
+        "id": 638,
+        "name": "reflection"
+      },
+      {
+        "id": 670,
+        "name": "polka dots"
+      },
+      {
+        "id": 702,
+        "name": "geometry"
+      },
+      {
+        "id": 771,
+        "name": "concept art"
+      },
+      {
+        "id": 773,
+        "name": "bokeh"
+      },
+      {
+        "id": 837,
+        "name": "sepia"
+      },
+      {
+        "id": 839,
+        "name": "transparent background"
+      },
+      {
+        "id": 853,
+        "name": "fantasy art"
+      },
+      {
+        "id": 909,
+        "name": "lines"
+      },
+      {
+        "id": 1025,
+        "name": "fabric"
+      },
+      {
+        "id": 1103,
+        "name": "Gothic"
+      },
+      {
+        "id": 1189,
+        "name": "sphere"
+      },
+      {
+        "id": 1200,
+        "name": "psychedelic"
+      },
+      {
+        "id": 1267,
+        "name": "ink"
+      },
+      {
+        "id": 1379,
+        "name": "monochrome"
+      },
+      {
+        "id": 1471,
+        "name": "chrome"
+      },
+      {
+        "id": 1474,
+        "name": "texture"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Entertainment",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 14,
+        "name": "science fiction"
+      },
+      {
+        "id": 376,
+        "name": "cyberpunk"
+      },
+      {
+        "id": 761,
+        "name": "superhero"
+      },
+      {
+        "id": 992,
+        "name": "zombies"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Miscellaneous",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 6,
+        "name": "destruction"
+      },
+      {
+        "id": 46,
+        "name": "fire"
+      },
+      {
+        "id": 58,
+        "name": "aliens"
+      },
+      {
+        "id": 81,
+        "name": "awesome face"
+      },
+      {
+        "id": 102,
+        "name": "memes"
+      },
+      {
+        "id": 107,
+        "name": "skeleton"
+      },
+      {
+        "id": 118,
+        "name": "lights"
+      },
+      {
+        "id": 160,
+        "name": "animal ears"
+      },
+      {
+        "id": 162,
+        "name": "tail"
+      },
+      {
+        "id": 179,
+        "name": "hair ornament"
+      },
+      {
+        "id": 225,
+        "name": "sleeping"
+      },
+      {
+        "id": 239,
+        "name": "life"
+      },
+      {
+        "id": 263,
+        "name": "burnout"
+      },
+      {
+        "id": 299,
+        "name": "tattoo"
+      },
+      {
+        "id": 300,
+        "name": "bed"
+      },
+      {
+        "id": 304,
+        "name": "Mafia"
+      },
+      {
+        "id": 305,
+        "name": "television sets"
+      },
+      {
+        "id": 308,
+        "name": "mirror"
+      },
+      {
+        "id": 316,
+        "name": "alone"
+      },
+      {
+        "id": 339,
+        "name": "spotlights"
+      },
+      {
+        "id": 382,
+        "name": "undead"
+      },
+      {
+        "id": 437,
+        "name": "world"
+      },
+      {
+        "id": 492,
+        "name": "miniatures"
+      },
+      {
+        "id": 498,
+        "name": "fighting"
+      },
+      {
+        "id": 713,
+        "name": "neon"
+      },
+      {
+        "id": 728,
+        "name": "humor"
+      },
+      {
+        "id": 731,
+        "name": "4chan"
+      },
+      {
+        "id": 757,
+        "name": "stretching"
+      },
+      {
+        "id": 759,
+        "name": "chair"
+      },
+      {
+        "id": 764,
+        "name": "magic"
+      },
+      {
+        "id": 813,
+        "name": "fans"
+      },
+      {
+        "id": 836,
+        "name": "bottles"
+      },
+      {
+        "id": 856,
+        "name": "explosion"
+      },
+      {
+        "id": 940,
+        "name": "purple eyes"
+      },
+      {
+        "id": 960,
+        "name": "love"
+      },
+      {
+        "id": 963,
+        "name": "scars"
+      },
+      {
+        "id": 964,
+        "name": "wounds"
+      },
+      {
+        "id": 990,
+        "name": "peace"
+      },
+      {
+        "id": 1009,
+        "name": "skull"
+      },
+      {
+        "id": 1044,
+        "name": "piercing"
+      },
+      {
+        "id": 1099,
+        "name": "bell"
+      },
+      {
+        "id": 1102,
+        "name": "cross"
+      },
+      {
+        "id": 1106,
+        "name": "smiling"
+      },
+      {
+        "id": 1112,
+        "name": "wet"
+      },
+      {
+        "id": 1126,
+        "name": "metal"
+      },
+      {
+        "id": 1137,
+        "name": "leather"
+      },
+      {
+        "id": 1195,
+        "name": "apocalyptic"
+      },
+      {
+        "id": 1203,
+        "name": "face paint"
+      },
+      {
+        "id": 1207,
+        "name": "Razer"
+      },
+      {
+        "id": 1211,
+        "name": "mushroom clouds"
+      },
+      {
+        "id": 1223,
+        "name": "clockwork"
+      },
+      {
+        "id": 1224,
+        "name": "gears"
+      },
+      {
+        "id": 1334,
+        "name": "couch"
+      },
+      {
+        "id": 1378,
+        "name": "angel"
+      },
+      {
+        "id": 1387,
+        "name": "wings"
+      },
+      {
+        "id": 1392,
+        "name": "eggs"
+      },
+      {
+        "id": 1396,
+        "name": "chains"
+      },
+      {
+        "id": 1402,
+        "name": "cards"
+      },
+      {
+        "id": 1406,
+        "name": "death"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Nature",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 40,
+        "name": "water"
+      },
+      {
+        "id": 84,
+        "name": "snow"
+      },
+      {
+        "id": 122,
+        "name": "sunlight"
+      },
+      {
+        "id": 294,
+        "name": "rainbows"
+      },
+      {
+        "id": 326,
+        "name": "frost"
+      },
+      {
+        "id": 327,
+        "name": "winter"
+      },
+      {
+        "id": 336,
+        "name": "rain"
+      },
+      {
+        "id": 371,
+        "name": "spiderwebs"
+      },
+      {
+        "id": 372,
+        "name": "water drops"
+      },
+      {
+        "id": 444,
+        "name": "rock"
+      },
+      {
+        "id": 655,
+        "name": "sand"
+      },
+      {
+        "id": 668,
+        "name": "mud"
+      },
+      {
+        "id": 716,
+        "name": "summer"
+      },
+      {
+        "id": 794,
+        "name": "storm"
+      },
+      {
+        "id": 917,
+        "name": "hay"
+      },
+      {
+        "id": 1028,
+        "name": "waves"
+      },
+      {
+        "id": 1463,
+        "name": "fall"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Location",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 17,
+        "name": "city"
+      },
+      {
+        "id": 399,
+        "name": "Matterhorn"
+      },
+      {
+        "id": 696,
+        "name": "Yosemite National Park"
+      },
+      {
+        "id": 774,
+        "name": "street"
+      },
+      {
+        "id": 797,
+        "name": "Statue of Liberty"
+      },
+      {
+        "id": 972,
+        "name": "swimming pool"
+      },
+      {
+        "id": 1007,
+        "name": "laboratories"
+      },
+      {
+        "id": 1010,
+        "name": "graveyards"
+      },
+      {
+        "id": 1035,
+        "name": "Arctic"
+      },
+      {
+        "id": 1424,
+        "name": "flag"
+      },
+      {
+        "id": 1460,
+        "name": "Empire State Building"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "People",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 111,
+        "name": "police"
+      },
+      {
+        "id": 113,
+        "name": "heart"
+      },
+      {
+        "id": 114,
+        "name": "brain"
+      },
+      {
+        "id": 164,
+        "name": "blonde"
+      },
+      {
+        "id": 167,
+        "name": "green eyes"
+      },
+      {
+        "id": 170,
+        "name": "dark hair"
+      },
+      {
+        "id": 177,
+        "name": "orange eyes"
+      },
+      {
+        "id": 182,
+        "name": "brunette"
+      },
+      {
+        "id": 186,
+        "name": "ponytail"
+      },
+      {
+        "id": 188,
+        "name": "blue eyes"
+      },
+      {
+        "id": 274,
+        "name": "legs"
+      },
+      {
+        "id": 313,
+        "name": "eyes"
+      },
+      {
+        "id": 347,
+        "name": "women with glasses"
+      },
+      {
+        "id": 387,
+        "name": "abs"
+      },
+      {
+        "id": 409,
+        "name": "profile"
+      },
+      {
+        "id": 486,
+        "name": "face"
+      },
+      {
+        "id": 572,
+        "name": "skinny"
+      },
+      {
+        "id": 573,
+        "name": "green hair"
+      },
+      {
+        "id": 622,
+        "name": "Japanese"
+      },
+      {
+        "id": 644,
+        "name": "archer"
+      },
+      {
+        "id": 672,
+        "name": "freckles"
+      },
+      {
+        "id": 724,
+        "name": "curly hair"
+      },
+      {
+        "id": 790,
+        "name": "hero"
+      },
+      {
+        "id": 802,
+        "name": "pirates"
+      },
+      {
+        "id": 833,
+        "name": "purple hair"
+      },
+      {
+        "id": 858,
+        "name": "feet"
+      },
+      {
+        "id": 863,
+        "name": "barefoot"
+      },
+      {
+        "id": 872,
+        "name": "women outdoors"
+      },
+      {
+        "id": 891,
+        "name": "blue hair"
+      },
+      {
+        "id": 897,
+        "name": "black eyes"
+      },
+      {
+        "id": 936,
+        "name": "red eyes"
+      },
+      {
+        "id": 949,
+        "name": "tanned"
+      },
+      {
+        "id": 961,
+        "name": "closed eyes"
+      },
+      {
+        "id": 966,
+        "name": "pale"
+      },
+      {
+        "id": 970,
+        "name": "teeth"
+      },
+      {
+        "id": 1005,
+        "name": "scientists"
+      },
+      {
+        "id": 1022,
+        "name": "nurses"
+      },
+      {
+        "id": 1023,
+        "name": "lipstick"
+      },
+      {
+        "id": 1024,
+        "name": "lips"
+      },
+      {
+        "id": 1167,
+        "name": "warrior"
+      },
+      {
+        "id": 1176,
+        "name": "pilot"
+      },
+      {
+        "id": 1229,
+        "name": "vampires"
+      },
+      {
+        "id": 1422,
+        "name": "Greek"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Vehicles",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 256,
+        "name": "engine"
+      },
+      {
+        "id": 1289,
+        "name": "hot air balloons"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Characters",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 3,
+        "name": "Hatsune Miku"
+      },
+      {
+        "id": 5,
+        "name": "anime girls"
+      },
+      {
+        "id": 88,
+        "name": "Fujibayashi Ryou"
+      },
+      {
+        "id": 123,
+        "name": "Matoi Ryuuko"
+      },
+      {
+        "id": 135,
+        "name": "IA (Vocaloid)"
+      },
+      {
+        "id": 175,
+        "name": "anime boys"
+      },
+      {
+        "id": 196,
+        "name": "Senjougahara Hitagi"
+      },
+      {
+        "id": 218,
+        "name": "Yazawa Nico"
+      },
+      {
+        "id": 353,
+        "name": "Yin"
+      },
+      {
+        "id": 408,
+        "name": "Super Sonico"
+      },
+      {
+        "id": 539,
+        "name": "Uchiha Obito"
+      },
+      {
+        "id": 565,
+        "name": "Kagamine Len"
+      },
+      {
+        "id": 620,
+        "name": "Flandre Scarlet"
+      },
+      {
+        "id": 705,
+        "name": "Saber"
+      },
+      {
+        "id": 738,
+        "name": "Jin (Samurai Champloo)"
+      },
+      {
+        "id": 749,
+        "name": "Asuka Langley Soryu"
+      },
+      {
+        "id": 850,
+        "name": "Gremory Rias"
+      },
+      {
+        "id": 894,
+        "name": "Kirigaya Suguha"
+      },
+      {
+        "id": 1104,
+        "name": "Littner Yoko"
+      },
+      {
+        "id": 1149,
+        "name": "Holo (Spice and Wolf)"
+      },
+      {
+        "id": 1158,
+        "name": "Kiryuin Satsuki"
+      },
+      {
+        "id": 1188,
+        "name": "Uzumaki Naruto"
+      },
+      {
+        "id": 1231,
+        "name": "Mikasa Ackerman"
+      },
+      {
+        "id": 1278,
+        "name": "Nagato Yuki"
+      },
+      {
+        "id": 1285,
+        "name": "Hanekawa Tsubasa"
+      },
+      {
+        "id": 1389,
+        "name": "Revy"
+      },
+      {
+        "id": 1414,
+        "name": "Kashiwazaki Sena"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Other",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 4,
+        "name": "Vocaloid"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Series",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 2,
+        "name": "Ghost in the Shell"
+      },
+      {
+        "id": 86,
+        "name": "Clannad"
+      },
+      {
+        "id": 131,
+        "name": "Nisekoi"
+      },
+      {
+        "id": 132,
+        "name": "Monogatari Series"
+      },
+      {
+        "id": 150,
+        "name": "K-ON!"
+      },
+      {
+        "id": 211,
+        "name": "Kantai Collection"
+      },
+      {
+        "id": 329,
+        "name": "Air Gear"
+      },
+      {
+        "id": 534,
+        "name": "Mahou Shoujo Madoka Magica"
+      },
+      {
+        "id": 541,
+        "name": "Naruto Shippuuden"
+      },
+      {
+        "id": 555,
+        "name": "Log Horizon"
+      },
+      {
+        "id": 698,
+        "name": "Baccano!"
+      },
+      {
+        "id": 704,
+        "name": "Fate/Zero"
+      },
+      {
+        "id": 743,
+        "name": "Angel Beats!"
+      },
+      {
+        "id": 781,
+        "name": "Neon Genesis Evangelion"
+      },
+      {
+        "id": 784,
+        "name": "Chuunibyou demo Koi ga Shitai!"
+      },
+      {
+        "id": 834,
+        "name": "FLCL"
+      },
+      {
+        "id": 873,
+        "name": "Cowboy Bebop"
+      },
+      {
+        "id": 878,
+        "name": "Fate series"
+      },
+      {
+        "id": 901,
+        "name": "Steins;Gate"
+      },
+      {
+        "id": 953,
+        "name": "Accel World"
+      },
+      {
+        "id": 1065,
+        "name": "RWBY"
+      },
+      {
+        "id": 1148,
+        "name": "Spice and Wolf"
+      },
+      {
+        "id": 1177,
+        "name": "Dragon Ball Z"
+      },
+      {
+        "id": 1186,
+        "name": "Tengen Toppa Gurren Lagann"
+      },
+      {
+        "id": 1236,
+        "name": "Another"
+      },
+      {
+        "id": 1397,
+        "name": "Gintama"
+      },
+      {
+        "id": 1405,
+        "name": "Bleach"
+      },
+      {
+        "id": 1411,
+        "name": "Elfen Lied"
+      },
+      {
+        "id": 1415,
+        "name": "Boku wa Tomodachi ga Sukunai"
+      },
+      {
+        "id": 1439,
+        "name": "The Melancholy of Haruhi Suzumiya"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Architecture",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 400,
+        "name": "arch"
+      },
+      {
+        "id": 789,
+        "name": "castle"
+      },
+      {
+        "id": 988,
+        "name": "urban"
+      },
+      {
+        "id": 989,
+        "name": "architecture"
+      },
+      {
+        "id": 1026,
+        "name": "lighthouse"
+      },
+      {
+        "id": 1362,
+        "name": "building"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Digital",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 75,
+        "name": "CGI"
+      },
+      {
+        "id": 403,
+        "name": "3D"
+      },
+      {
+        "id": 479,
+        "name": "digital art"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Photography",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 109,
+        "name": "photography"
+      },
+      {
+        "id": 119,
+        "name": "depth of field"
+      },
+      {
+        "id": 343,
+        "name": "HDR"
+      },
+      {
+        "id": 393,
+        "name": "selfies"
+      },
+      {
+        "id": 947,
+        "name": "bottom view"
+      },
+      {
+        "id": 1340,
+        "name": "closeup"
+      },
+      {
+        "id": 1466,
+        "name": "long exposure"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Traditional",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 690,
+        "name": "painting"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Comic Books & Graphic Novels",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 512,
+        "name": "Catwoman"
+      },
+      {
+        "id": 1175,
+        "name": "Romantically Apocalyptic "
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Games",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 19,
+        "name": "EVE Online"
+      },
+      {
+        "id": 33,
+        "name": "Portal (game)"
+      },
+      {
+        "id": 55,
+        "name": "video games"
+      },
+      {
+        "id": 67,
+        "name": "Dark Souls"
+      },
+      {
+        "id": 101,
+        "name": "Team Fortress 2"
+      },
+      {
+        "id": 104,
+        "name": "Middle-earth: Shadow of Mordor"
+      },
+      {
+        "id": 126,
+        "name": "Kingdom Hearts"
+      },
+      {
+        "id": 227,
+        "name": "Dota"
+      },
+      {
+        "id": 243,
+        "name": "Fez "
+      },
+      {
+        "id": 333,
+        "name": "Fallout"
+      },
+      {
+        "id": 334,
+        "name": "Fallout: New Vegas"
+      },
+      {
+        "id": 458,
+        "name": "Assassin's Creed"
+      },
+      {
+        "id": 462,
+        "name": "BioShock Infinite"
+      },
+      {
+        "id": 521,
+        "name": "Mass Effect"
+      },
+      {
+        "id": 537,
+        "name": "League of Legends"
+      },
+      {
+        "id": 633,
+        "name": "Mass Effect 2"
+      },
+      {
+        "id": 636,
+        "name": "Mass Effect 3"
+      },
+      {
+        "id": 640,
+        "name": "Persona 4"
+      },
+      {
+        "id": 648,
+        "name": "Normandy SR-2"
+      },
+      {
+        "id": 680,
+        "name": "Tomb Raider"
+      },
+      {
+        "id": 682,
+        "name": "Shadow of the Colossus"
+      },
+      {
+        "id": 805,
+        "name": "The Elder Scrolls V: Skyrim"
+      },
+      {
+        "id": 826,
+        "name": "Halo"
+      },
+      {
+        "id": 846,
+        "name": "Resident Evil"
+      },
+      {
+        "id": 997,
+        "name": "Final Fantasy"
+      },
+      {
+        "id": 1020,
+        "name": "Silent Hill"
+      },
+      {
+        "id": 1268,
+        "name": "Far Cry"
+      },
+      {
+        "id": 1272,
+        "name": "Hotline Miami"
+      },
+      {
+        "id": 1276,
+        "name": "Street Fighter"
+      },
+      {
+        "id": 1283,
+        "name": "Fallout 3"
+      },
+      {
+        "id": 1287,
+        "name": "Mirror's Edge"
+      },
+      {
+        "id": 1341,
+        "name": "Tetris"
+      },
+      {
+        "id": 1354,
+        "name": "World of Tanks"
+      },
+      {
+        "id": 1361,
+        "name": "The Elder Scrolls Online"
+      },
+      {
+        "id": 1363,
+        "name": "Zerg"
+      },
+      {
+        "id": 1372,
+        "name": "Companion Cube"
+      },
+      {
+        "id": 1430,
+        "name": "Unreal Tournament"
+      },
+      {
+        "id": 1434,
+        "name": "Warcraft"
+      },
+      {
+        "id": 1500,
+        "name": "World of Warcraft"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Literature",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 28,
+        "name": "The Lord of the Rings"
+      },
+      {
+        "id": 1297,
+        "name": "Alice in Wonderland"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Movies",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 72,
+        "name": "Godzilla"
+      },
+      {
+        "id": 78,
+        "name": "Star Wars"
+      },
+      {
+        "id": 208,
+        "name": "movies"
+      },
+      {
+        "id": 325,
+        "name": "The Matrix"
+      },
+      {
+        "id": 511,
+        "name": "Pacific Rim"
+      },
+      {
+        "id": 578,
+        "name": "lightsaber"
+      },
+      {
+        "id": 1016,
+        "name": "The Dark Knight"
+      },
+      {
+        "id": 1350,
+        "name": "Battlestar Galactica"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Music",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 48,
+        "name": "Daft Punk"
+      },
+      {
+        "id": 280,
+        "name": "Pink Floyd"
+      },
+      {
+        "id": 342,
+        "name": "violin"
+      },
+      {
+        "id": 1050,
+        "name": "speakers"
+      },
+      {
+        "id": 1082,
+        "name": "guitar"
+      },
+      {
+        "id": 1125,
+        "name": "heavy metal"
+      },
+      {
+        "id": 1146,
+        "name": "album covers"
+      },
+      {
+        "id": 1489,
+        "name": "Slipknot"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Sports",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 396,
+        "name": "WWE"
+      },
+      {
+        "id": 667,
+        "name": "soccer"
+      },
+      {
+        "id": 922,
+        "name": "Formula 1"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Clothing",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 148,
+        "name": "thigh-highs"
+      },
+      {
+        "id": 284,
+        "name": "glasses"
+      },
+      {
+        "id": 296,
+        "name": "high heels"
+      },
+      {
+        "id": 348,
+        "name": "jacket"
+      },
+      {
+        "id": 388,
+        "name": "shorts"
+      },
+      {
+        "id": 397,
+        "name": "T-shirt"
+      },
+      {
+        "id": 447,
+        "name": "sunglasses"
+      },
+      {
+        "id": 453,
+        "name": "shoes"
+      },
+      {
+        "id": 623,
+        "name": "necklace"
+      },
+      {
+        "id": 630,
+        "name": "suits"
+      },
+      {
+        "id": 631,
+        "name": "helmet"
+      },
+      {
+        "id": 778,
+        "name": "dress"
+      },
+      {
+        "id": 830,
+        "name": "jeans"
+      },
+      {
+        "id": 958,
+        "name": "school uniform"
+      },
+      {
+        "id": 1000,
+        "name": "gas masks"
+      },
+      {
+        "id": 1081,
+        "name": "heels"
+      },
+      {
+        "id": 1250,
+        "name": "boots"
+      },
+      {
+        "id": 1383,
+        "name": "rings"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Colors",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 61,
+        "name": "colorful"
+      },
+      {
+        "id": 236,
+        "name": "brown"
+      },
+      {
+        "id": 282,
+        "name": "blue"
+      },
+      {
+        "id": 283,
+        "name": "purple"
+      },
+      {
+        "id": 311,
+        "name": "red"
+      },
+      {
+        "id": 760,
+        "name": "white background"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Companies & Logos",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 36,
+        "name": "Pixar Animation Studios"
+      },
+      {
+        "id": 230,
+        "name": "Valve Corporation"
+      },
+      {
+        "id": 491,
+        "name": "LEGO"
+      },
+      {
+        "id": 577,
+        "name": "Apple Inc."
+      },
+      {
+        "id": 642,
+        "name": "Disney"
+      },
+      {
+        "id": 770,
+        "name": "Amazon"
+      },
+      {
+        "id": 860,
+        "name": "Jack Daniel's"
+      },
+      {
+        "id": 1206,
+        "name": "logo"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Food",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 734,
+        "name": "grapes"
+      },
+      {
+        "id": 741,
+        "name": "beer"
+      },
+      {
+        "id": 928,
+        "name": "tea"
+      },
+      {
+        "id": 969,
+        "name": "chocolate"
+      },
+      {
+        "id": 1152,
+        "name": "wine"
+      },
+      {
+        "id": 1319,
+        "name": "fruit"
+      },
+      {
+        "id": 1320,
+        "name": "tomatoes"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Technology",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 11,
+        "name": "interfaces"
+      },
+      {
+        "id": 345,
+        "name": "Debian"
+      },
+      {
+        "id": 405,
+        "name": "internet"
+      },
+      {
+        "id": 480,
+        "name": "Cinema 4D"
+      },
+      {
+        "id": 502,
+        "name": "rocket"
+      },
+      {
+        "id": 576,
+        "name": "Android (operating system)"
+      },
+      {
+        "id": 768,
+        "name": "headphones"
+      },
+      {
+        "id": 812,
+        "name": "hardware"
+      },
+      {
+        "id": 816,
+        "name": "keyboards"
+      },
+      {
+        "id": 900,
+        "name": "Mozilla Firefox"
+      },
+      {
+        "id": 1170,
+        "name": "satellite"
+      },
+      {
+        "id": 1171,
+        "name": "Unreal Engine 4 "
+      },
+      {
+        "id": 1213,
+        "name": "Source Filmmaker"
+      },
+      {
+        "id": 1214,
+        "name": "CPU"
+      },
+      {
+        "id": 1240,
+        "name": "technology"
+      },
+      {
+        "id": 1241,
+        "name": "microchip"
+      },
+      {
+        "id": 1442,
+        "name": "Windows XP"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Animals",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 43,
+        "name": "cats"
+      },
+      {
+        "id": 91,
+        "name": "wolf"
+      },
+      {
+        "id": 106,
+        "name": "eagle"
+      },
+      {
+        "id": 324,
+        "name": "birds"
+      },
+      {
+        "id": 579,
+        "name": "polar bears"
+      },
+      {
+        "id": 785,
+        "name": "elephant"
+      },
+      {
+        "id": 801,
+        "name": "shark"
+      },
+      {
+        "id": 1030,
+        "name": "crocodiles"
+      },
+      {
+        "id": 1031,
+        "name": "turtle"
+      },
+      {
+        "id": 1040,
+        "name": "owl"
+      },
+      {
+        "id": 1063,
+        "name": "bears"
+      },
+      {
+        "id": 1295,
+        "name": "insect"
+      },
+      {
+        "id": 1326,
+        "name": "spider"
+      },
+      {
+        "id": 1391,
+        "name": "leopard"
+      },
+      {
+        "id": 1416,
+        "name": "seals"
+      },
+      {
+        "id": 1418,
+        "name": "lion"
+      },
+      {
+        "id": 1437,
+        "name": "sloths"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Landscapes",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 20,
+        "name": "river"
+      },
+      {
+        "id": 121,
+        "name": "cave"
+      },
+      {
+        "id": 307,
+        "name": "sea"
+      },
+      {
+        "id": 328,
+        "name": "mountains"
+      },
+      {
+        "id": 398,
+        "name": "lake"
+      },
+      {
+        "id": 401,
+        "name": "desert"
+      },
+      {
+        "id": 465,
+        "name": "hills"
+      },
+      {
+        "id": 476,
+        "name": "coast"
+      },
+      {
+        "id": 483,
+        "name": "valley"
+      },
+      {
+        "id": 697,
+        "name": "cliff"
+      },
+      {
+        "id": 711,
+        "name": "landscape"
+      },
+      {
+        "id": 1019,
+        "name": "field"
+      },
+      {
+        "id": 1029,
+        "name": "pond"
+      },
+      {
+        "id": 1263,
+        "name": "jungle"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Plants",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 108,
+        "name": "leaves"
+      },
+      {
+        "id": 115,
+        "name": "trees"
+      },
+      {
+        "id": 120,
+        "name": "wheat"
+      },
+      {
+        "id": 485,
+        "name": "rose"
+      },
+      {
+        "id": 870,
+        "name": "grass"
+      },
+      {
+        "id": 1018,
+        "name": "flowers"
+      },
+      {
+        "id": 1100,
+        "name": "lavender"
+      },
+      {
+        "id": 1408,
+        "name": "sunflowers"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Cities",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 13,
+        "name": "cityscape"
+      },
+      {
+        "id": 201,
+        "name": "Paris"
+      },
+      {
+        "id": 712,
+        "name": "Miami"
+      },
+      {
+        "id": 1303,
+        "name": "Istanbul"
+      },
+      {
+        "id": 1464,
+        "name": "San Francisco"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Countries",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 7,
+        "name": "Japan"
+      },
+      {
+        "id": 470,
+        "name": "Poland"
+      },
+      {
+        "id": 663,
+        "name": "UK"
+      },
+      {
+        "id": 1046,
+        "name": "Wales"
+      },
+      {
+        "id": 1304,
+        "name": "Turkey"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Space",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 51,
+        "name": "galaxy"
+      },
+      {
+        "id": 245,
+        "name": "stars"
+      },
+      {
+        "id": 629,
+        "name": "universe"
+      },
+      {
+        "id": 740,
+        "name": "Moon"
+      },
+      {
+        "id": 1011,
+        "name": "black holes"
+      },
+      {
+        "id": 1376,
+        "name": "shooting stars"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Artists",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 23,
+        "name": "J. R. R. Tolkien"
+      },
+      {
+        "id": 737,
+        "name": "Murata Range"
+      },
+      {
+        "id": 902,
+        "name": "Huke (artist)"
+      },
+      {
+        "id": 1094,
+        "name": "Justin Maller"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Celebrities",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 567,
+        "name": "Arnold Schwarzenegger"
+      },
+      {
+        "id": 685,
+        "name": "Charlize Theron"
+      },
+      {
+        "id": 1310,
+        "name": "Brad Pitt"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Fictional Characters",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 22,
+        "name": "Gandalf"
+      },
+      {
+        "id": 63,
+        "name": "elves"
+      },
+      {
+        "id": 69,
+        "name": "Mewtwo"
+      },
+      {
+        "id": 97,
+        "name": "Gengar"
+      },
+      {
+        "id": 233,
+        "name": "Walter White"
+      },
+      {
+        "id": 309,
+        "name": "Joker"
+      },
+      {
+        "id": 536,
+        "name": "Jinx (League of Legends)"
+      },
+      {
+        "id": 646,
+        "name": "Han Solo"
+      },
+      {
+        "id": 854,
+        "name": "Bulbasaur"
+      },
+      {
+        "id": 1246,
+        "name": "Tali'Zorah"
+      },
+      {
+        "id": 1273,
+        "name": "Yoda"
+      },
+      {
+        "id": 1335,
+        "name": "Batgirl"
+      },
+      {
+        "id": 1357,
+        "name": "Big Daddy"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Aircraft",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 709,
+        "name": "aircraft"
+      },
+      {
+        "id": 841,
+        "name": "airplane"
+      },
+      {
+        "id": 842,
+        "name": "McDonnell Douglas F/A-18 Hornet"
+      },
+      {
+        "id": 1036,
+        "name": "cockpit"
+      },
+      {
+        "id": 1048,
+        "name": "F-15 Eagle"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Cars & Motorcycles",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 249,
+        "name": "muscle cars"
+      },
+      {
+        "id": 252,
+        "name": "tuning"
+      },
+      {
+        "id": 260,
+        "name": "rims"
+      },
+      {
+        "id": 267,
+        "name": "Ford"
+      },
+      {
+        "id": 286,
+        "name": "old car"
+      },
+      {
+        "id": 314,
+        "name": "car"
+      },
+      {
+        "id": 367,
+        "name": "Audi"
+      },
+      {
+        "id": 455,
+        "name": "Lamborghini Murcielago"
+      },
+      {
+        "id": 613,
+        "name": "Ferrari"
+      },
+      {
+        "id": 677,
+        "name": "Porsche"
+      },
+      {
+        "id": 678,
+        "name": "Porsche 911"
+      },
+      {
+        "id": 717,
+        "name": "BMW Z4"
+      },
+      {
+        "id": 806,
+        "name": "Ferrari 458"
+      },
+      {
+        "id": 809,
+        "name": "Volkswagen"
+      },
+      {
+        "id": 925,
+        "name": "McLaren"
+      },
+      {
+        "id": 1329,
+        "name": "Moto GP"
+      },
+      {
+        "id": 1349,
+        "name": "Lamborghini Aventador"
+      },
+      {
+        "id": 1459,
+        "name": "supercars"
+      },
+      {
+        "id": 1462,
+        "name": "BMW"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Ships",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 903,
+        "name": "boat"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Trains",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 18,
+        "name": "subway"
+      },
+      {
+        "id": 154,
+        "name": "train station"
+      },
+      {
+        "id": 1259,
+        "name": "railway"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "History",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 626,
+        "name": "medieval"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Holidays",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 145,
+        "name": "Christmas"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Military & Weapons",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 93,
+        "name": "sword"
+      },
+      {
+        "id": 625,
+        "name": "bow"
+      },
+      {
+        "id": 844,
+        "name": "navy"
+      },
+      {
+        "id": 983,
+        "name": "sniper rifle"
+      },
+      {
+        "id": 995,
+        "name": "war"
+      },
+      {
+        "id": 1066,
+        "name": "scythe"
+      },
+      {
+        "id": 1426,
+        "name": "katana"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Quotes",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 451,
+        "name": "quote"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Science",
+    "purity": "sfw",
+    "tag": [
+      {
+        "id": 739,
+        "name": "Apollo"
+      },
+      {
+        "id": 998,
+        "name": "nuclear"
+      },
+      {
+        "id": 1004,
+        "name": "science"
+      }
+    ]
+  }
+]

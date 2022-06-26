@@ -1,8 +1,12 @@
 package com.ecloud.wallpic.controllers;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.ecloud.wallpic.datamodels.Category;
+import com.ecloud.wallpic.datamodels.PhotoUrl;
+import com.ecloud.wallpic.services.WallHavenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,12 +22,33 @@ public class CollectionController {
 
 	@Autowired
 	CollectionService collectionService;
+
+	@Autowired
+	WallHavenService wallHavenService;
 	
 	@Cacheable(value="pic_collection", key = "'mykey'")
 	@GetMapping("collections/all")
 	List<PicCollection> getPeoplePhots(){
-	    List<PicCollection>	userCollections = collectionService.fetchAllCollectionsOfAUser("abhi14june");
-	    return userCollections;
+		List<PicCollection> collections = new ArrayList<>();
+//	    List<PicCollection>	userCollections = collectionService.fetchAllCollectionsOfAUser("abhi14june");
+//	    return userCollections;
+		List<Category> categories = null ;
+		try{
+			categories = getAllCategories();
+			for(Category item : categories){
+				PicCollection picItem = new PicCollection();
+				picItem.setId(item.getId()+"");
+				picItem.setTitle(item.getName());
+				PhotoUrl coverPhoto = new PhotoUrl();
+				coverPhoto.setRegular("https://w.wallhaven.cc/full/l3/wallhaven-l3xoor.jpg");
+				picItem.setCoverPhoto(coverPhoto);
+				collections.add(picItem);
+			}
+		}
+		catch (Exception e){
+
+		}
+	return collections;
 	}
 	
 	@GetMapping("collections/{collectionId}/photos")
@@ -49,5 +74,9 @@ public class CollectionController {
 	    }
 	    return response;
 	}
-	
+
+	@GetMapping("categories/all")
+	List<Category> getAllCategories() throws InterruptedException, IOException {
+		return wallHavenService.fetchAllWallHavenCategories();
+	}
 }
