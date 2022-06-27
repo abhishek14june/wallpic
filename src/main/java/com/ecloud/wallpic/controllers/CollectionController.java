@@ -2,7 +2,9 @@ package com.ecloud.wallpic.controllers;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import com.ecloud.wallpic.datamodels.*;
 import com.ecloud.wallpic.helpers.FileHelper;
@@ -56,11 +58,22 @@ public class CollectionController {
 	List<PictureItem> getCollectionPhotos(@PathVariable("collectionId") String collectionId){
 		String filePath = "/data/1_images.json";
 		List<Tag> tags = fileHelper.readTagsDataFromFile(filePath);
-
+		List<Category> categories = fileHelper.readCategoriesDataFromFile("/data/existingdata.json");
+		Set<Integer> categoryTags = new HashSet<>();
+		for (Category category : categories){
+			if(category.getId() == Integer.parseInt(collectionId)){
+				List<Tag> temTags = category.getTag();
+				for(Tag tagItem : temTags){
+					categoryTags.add(tagItem.getId());
+				}
+			}
+		}
 		List<PictureItem> response = new ArrayList<PictureItem>();
 		for(Tag tag : tags){
-			response.addAll(tag.getPhotos());
-			break;
+			if(categoryTags.contains(tag.getId())){
+				response.addAll(tag.getPhotos());
+			}
+			//break;
 		}
 //	    List<PicCollection>	userCollections = collectionService.fetchAllCollectionsOfAUser("abhi14june");
 //	    for(PicCollection collection : userCollections) {
