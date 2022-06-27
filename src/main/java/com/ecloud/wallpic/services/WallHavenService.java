@@ -3,10 +3,14 @@ package com.ecloud.wallpic.services;
 import com.ecloud.wallpic.configuration.WallhavenConstants;
 import com.ecloud.wallpic.configuration.WallpicConstants;
 import com.ecloud.wallpic.datamodels.Category;
+import com.ecloud.wallpic.datamodels.PhotoUrl;
+import com.ecloud.wallpic.datamodels.PictureItem;
 import com.ecloud.wallpic.datamodels.Tag;
 import com.ecloud.wallpic.helpers.HttpHelper;
+import com.ecloud.wallpic.helpers.UrlBuilders;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -19,6 +23,8 @@ import java.util.*;
 public class WallHavenService {
     @Autowired
     HttpHelper httpHelper;
+    @Autowired
+    UrlBuilders urlBuilders;
     private String dataPath = "/data/existingdata.json";
     public List<Category> fetchAllWallHavenCategories() throws InterruptedException, IOException {
         TypeReference<List<Category>> typeReference = new TypeReference<List<Category>>(){};
@@ -89,6 +95,58 @@ public class WallHavenService {
             int total = meta.getInt(WallhavenConstants.TOTAL);
             if(total>=WallhavenConstants.THRESHOLD_TOTAL)
                 response = true;
+        }
+        return response;
+    }
+
+    public List<PictureItem> fetchAllPicsOfTag(int tagId) {
+        boolean display =true;
+        System.out.println("fetchAllPicsOfTag "+tagId);
+        List<PictureItem> response = new ArrayList<>();
+        int pageNumber = 1;
+        int target =100;
+        do{
+            JSONObject imagesData = fetchImages(tagId,pageNumber);
+            if(null != imagesData){
+                JSONObject meta = imagesData.getJSONObject(WallhavenConstants.META);
+                 target = meta.getInt(WallhavenConstants.LAST_PAGE);
+                 if(display){
+                     System.out.println("Total pages for tag "+tagId +" = "+target);
+                 }
+                 display = false;
+                 JSONArray data = imagesData.getJSONArray(WallhavenConstants.DATA);
+                 if(null != data){
+                     for(int index =0; index<data.length();index++){
+                         JSONObject dataItem = data.getJSONObject(index);
+                         PictureItem imageItem = new PictureItem();
+                         imageItem.setId(dataItem.getString("id"));
+                         PhotoUrl photo = new PhotoUrl();
+                         photo.setFull(dataItem.getString(WallhavenConstants.PATH));
+                         photo.setThumb(dataItem.getJSONObject(WallhavenConstants.THUMBS).
+                                 getString(WallhavenConstants.THUMBS_ORIGINAL));
+                         imageItem.setUrl(photo);
+                         response.add(imageItem);
+
+                     }
+                 }
+                pageNumber++;
+
+            }
+        }
+        while (pageNumber<=target);
+
+        return response;
+    }
+
+    private JSONObject fetchImages(int tagId, int pageNumber) {
+        String reqUrl = urlBuilders.getImageSearchViaTagURL(tagId,pageNumber);
+        JSONObject response = null;
+        try {
+            Thread.sleep(1000);
+            response = httpHelper.callForJsonObjectResponse(reqUrl);
+        }
+        catch (Exception e){
+            System.out.println("Error fetching data for "+reqUrl);
         }
         return response;
     }

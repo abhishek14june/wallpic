@@ -1,6 +1,8 @@
 package com.ecloud.wallpic.datamodels;
 
-public class PhotoUrl {
+import java.io.Serializable;
+
+public class PhotoUrl implements Serializable {
 
 	private String raw;
 	private String full;

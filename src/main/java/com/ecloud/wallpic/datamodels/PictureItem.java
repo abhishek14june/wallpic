@@ -1,6 +1,8 @@
 package com.ecloud.wallpic.datamodels;
 
-public class PictureItem {
+import java.io.Serializable;
+
+public class PictureItem implements Serializable {
 
 	
 	private String id;

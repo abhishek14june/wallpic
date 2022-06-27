@@ -1,8 +1,21 @@
 package com.ecloud.wallpic.datamodels;
 
-public class Tag {
+import java.io.Serializable;
+import java.util.List;
+
+public class Tag implements Serializable {
     private int id;
     private String name;
+
+    private List<PictureItem> photos;
+
+    public List<PictureItem> getPhotos() {
+        return photos;
+    }
+
+    public void setPhotos(List<PictureItem> photos) {
+        this.photos = photos;
+    }
 
     public int getId() {
         return id;

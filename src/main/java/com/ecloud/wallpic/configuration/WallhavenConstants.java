@@ -4,6 +4,11 @@ public class WallhavenConstants {
     public static final String META = "meta";
     public static final String TOTAL = "total";
     public static final int THRESHOLD_TOTAL = 30;
+    public static final String PAGE_PARAM = "&page=";
+    public static final String LAST_PAGE = "last_page";
+    public static final String PATH = "path";
+    public static final String THUMBS = "thumbs";
+    public static final String THUMBS_ORIGINAL = "original";
     public static String PURITY = "purity";
     public static String PURITY_SFW = "sfw";
     public static String CATEGORY_ID = "category_id";
