@@ -1,12 +1,11 @@
 package com.ecloud.wallpic.controllers;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import com.ecloud.wallpic.datamodels.*;
+import com.ecloud.wallpic.helpers.DataHelper;
 import com.ecloud.wallpic.helpers.FileHelper;
 import com.ecloud.wallpic.services.WallHavenService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +27,9 @@ public class CollectionController {
 
 	@Autowired
 	FileHelper fileHelper;
+
+	@Autowired
+	DataHelper dataHelper;
 	
 	@Cacheable(value="pic_collection", key = "'mykey'")
 	@GetMapping("collections/all")
@@ -55,26 +57,10 @@ public class CollectionController {
 	}
 	
 	@GetMapping("collections/{collectionId}/photos")
-	List<PictureItem> getCollectionPhotos(@PathVariable("collectionId") String collectionId){
-		String filePath = "/data/1_images.json";
-		List<Tag> tags = fileHelper.readTagsDataFromFile(filePath);
-		List<Category> categories = fileHelper.readCategoriesDataFromFile("/data/existingdata.json");
-		Set<Integer> categoryTags = new HashSet<>();
-		for (Category category : categories){
-			if(category.getId() == Integer.parseInt(collectionId)){
-				List<Tag> temTags = category.getTag();
-				for(Tag tagItem : temTags){
-					categoryTags.add(tagItem.getId());
-				}
-			}
-		}
-		List<PictureItem> response = new ArrayList<PictureItem>();
-		for(Tag tag : tags){
-			if(categoryTags.contains(tag.getId())){
-				response.addAll(tag.getPhotos());
-			}
-			//break;
-		}
+	List<PictureItem> getCollectionPhotos(@PathVariable("collectionId") int collectionId){
+		List<PictureItem> response = dataHelper.searchByCategoryId(collectionId);
+		Collections.shuffle(response);
+		response = response.stream().limit(100).collect(Collectors.toList());
 //	    List<PicCollection>	userCollections = collectionService.fetchAllCollectionsOfAUser("abhi14june");
 //	    for(PicCollection collection : userCollections) {
 //	    	if(collection.getId().equalsIgnoreCase(collectionId)) {

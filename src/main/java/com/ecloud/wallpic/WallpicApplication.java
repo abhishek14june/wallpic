@@ -1,5 +1,6 @@
 package com.ecloud.wallpic;
 
+import com.ecloud.wallpic.datamodels.PictureItem;
 import com.ecloud.wallpic.datamodels.Tag;
 import com.ecloud.wallpic.helpers.DataHelper;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -48,7 +49,12 @@ public class WallpicApplication {
 	@Bean
 	public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
 		return args -> {
-			dataHelper.processCategories();
+			//dataHelper.processCategories();
+			long l = System.currentTimeMillis();
+
+			List<PictureItem> images = dataHelper.searchByCategoryId(1);
+			System.out.println("Total time elapsed "+(System.currentTimeMillis()-l)/1000);
+			System.out.println("total images for category "+images.size());
 //		System.out.println(new JSONArray(response));
 //			
 //			List<PicCollection> col=collService.fetchAllCollectionsOfAUser("abhi14june");

@@ -29,5 +29,6 @@ public class WallpicConstants {
 	public static final String TOTAL_LIKES ="total_likes";
 	public static final String PORTFOLIO_URL = "portfolio_url";
 	public static final String PROFILE_IMAGE ="profile_image";
-	
+
+
 }
